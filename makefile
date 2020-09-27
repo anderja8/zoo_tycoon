@@ -28,7 +28,7 @@ HEADERS = Animal.hpp inputValidation.hpp Penguin.hpp Tiger.hpp Turtle.hpp Zoo.hp
 
 # Command to compile my executable from my objects
 Project2_Anderson_Jacob: ${OBJS} ${HEADERS}
-	${CXX} ${OBJS} -o Project2_Anderson_Jacob.exe
+	${CXX} ${OBJS} -o zooTycoon.exe
 
 # Command to compile my objects from my sources
 ${OBJS}: ${SRCS}
@@ -36,4 +36,4 @@ ${OBJS}: ${SRCS}
 
 # Command to clean the files
 clean:
-	rm ${OBJS} Project2_Anderson_Jacob.exe
+	rm ${OBJS} zooTycoon.exe
